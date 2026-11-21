@@ -1,6 +1,5 @@
 # Homely Orion for Home Assistant
 
-[![Validate](https://github.com/EllySync/homely-ha/actions/workflows/validate.yml/badge.svg)](https://github.com/EllySync/homely-ha/actions/workflows/validate.yml)
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/docs/faq/custom_repositories)
 
 A small, read-only Home Assistant integration for the [Homely](https://www.homely.no/) alarm system. It shows the alarm state and every device in your home — motion, doors, smoke, lock, battery, temperature and signal strength — using Homely's official API, with real-time updates over WebSocket.
