@@ -1,0 +1,555 @@
+{
+  "locationId": "00000000-0000-0000-0000-000000000001",
+  "gatewayserial": "592F36584326EE82",
+  "name": "Hjemme",
+  "alarmState": "DISARMED",
+  "userRoleAtLocation": "OWNER",
+  "devices": [
+    {
+      "id": "00000000-0000-0000-0000-000000000002",
+      "name": "Ir-kjeller",
+      "serialNumber": "1DE6DEBA357EA9B7",
+      "location": "Floor 0 - Kjeller gang",
+      "online": true,
+      "modelId": "17ddbcb4-8c00-4bc3-b06f-d20f51c0fe52",
+      "modelName": "Alarm Motion Sensor 2",
+      "features": {
+        "setup": {
+          "states": {
+            "appledenable": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:48:07.089Z"
+            },
+            "errledenable": {
+              "value": true,
+              "lastUpdated": "2026-06-29T07:48:07.086Z"
+            }
+          }
+        },
+        "alarm": {
+          "states": {
+            "alarm": {
+              "value": false,
+              "lastUpdated": "2026-11-20T22:14:51.655Z"
+            },
+            "tamper": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:48:06.731Z"
+            },
+            "sensitivitylevel": {
+              "value": 3,
+              "lastUpdated": "2026-06-29T07:48:06.620Z"
+            }
+          }
+        },
+        "temperature": {
+          "states": {
+            "temperature": {
+              "value": 15.3,
+              "lastUpdated": "2026-11-21T07:02:06.300Z"
+            }
+          }
+        },
+        "battery": {
+          "states": {
+            "low": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:48:06.722Z"
+            },
+            "defect": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:48:06.725Z"
+            },
+            "voltage": {
+              "value": 2.8,
+              "lastUpdated": "2026-06-29T07:48:06.127Z"
+            }
+          }
+        },
+        "diagnostic": {
+          "states": {
+            "networklinkstrength": {
+              "value": 89,
+              "lastUpdated": "2026-11-21T07:31:56.329Z"
+            },
+            "networklinkaddress": {
+              "value": "5842061D45606475",
+              "lastUpdated": "2026-11-01T08:20:36.307Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000003",
+      "name": "Ir-stue",
+      "serialNumber": "C1161DCD252C96D9",
+      "location": "Floor 1 - Stue",
+      "online": true,
+      "modelId": "17ddbcb4-8c00-4bc3-b06f-d20f51c0fe52",
+      "modelName": "Alarm Motion Sensor 2",
+      "features": {
+        "setup": {
+          "states": {
+            "appledenable": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:45:41.974Z"
+            },
+            "errledenable": {
+              "value": true,
+              "lastUpdated": "2026-06-29T07:45:41.971Z"
+            }
+          }
+        },
+        "alarm": {
+          "states": {
+            "alarm": {
+              "value": false,
+              "lastUpdated": "2026-11-21T07:44:00.025Z"
+            },
+            "tamper": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:45:41.923Z"
+            },
+            "sensitivitylevel": {
+              "value": 3,
+              "lastUpdated": "2026-06-29T07:45:41.781Z"
+            }
+          }
+        },
+        "temperature": {
+          "states": {
+            "temperature": {
+              "value": 17.9,
+              "lastUpdated": "2026-11-21T07:48:03.801Z"
+            }
+          }
+        },
+        "battery": {
+          "states": {
+            "low": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:45:41.909Z"
+            },
+            "defect": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:45:41.912Z"
+            },
+            "voltage": {
+              "value": 2.7,
+              "lastUpdated": "2026-11-16T08:52:46.997Z"
+            }
+          }
+        },
+        "diagnostic": {
+          "states": {
+            "networklinkstrength": {
+              "value": 94,
+              "lastUpdated": "2026-11-21T07:19:53.680Z"
+            },
+            "networklinkaddress": {
+              "value": "FE9D51823F05A601",
+              "lastUpdated": "2026-06-29T07:45:41.608Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000004",
+      "name": "1 Etg. Gang",
+      "serialNumber": "47848ADD6A334905",
+      "location": "Floor 1 - Inngang oppe",
+      "online": true,
+      "modelId": "15e64f49-fdbc-4cd6-9912-e2a6e838d44f",
+      "modelName": "Intelligent Smoke Alarm",
+      "features": {
+        "alarm": {
+          "states": {
+            "fire": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:46:54.267Z"
+            }
+          }
+        },
+        "temperature": {
+          "states": {
+            "temperature": {
+              "value": 18.8,
+              "lastUpdated": "2026-11-21T07:39:07.254Z"
+            }
+          }
+        },
+        "battery": {
+          "states": {
+            "low": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:46:54.263Z"
+            },
+            "voltage": {
+              "value": 2.8,
+              "lastUpdated": "2026-11-20T10:05:44.907Z"
+            }
+          }
+        },
+        "diagnostic": {
+          "states": {
+            "networklinkstrength": {
+              "value": 100,
+              "lastUpdated": "2026-11-21T03:24:15.647Z"
+            },
+            "networklinkaddress": {
+              "value": "FE9D51823F05A601",
+              "lastUpdated": "2026-06-29T07:46:49.154Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000005",
+      "name": "Teknisk rom",
+      "serialNumber": "980031D0CCC3AE46",
+      "location": "Floor 0 - Teknisk rom",
+      "online": true,
+      "modelId": "15e64f49-fdbc-4cd6-9912-e2a6e838d44f",
+      "modelName": "Intelligent Smoke Alarm",
+      "features": {
+        "alarm": {
+          "states": {
+            "fire": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:46:55.068Z"
+            }
+          }
+        },
+        "temperature": {
+          "states": {
+            "temperature": {
+              "value": 14.4,
+              "lastUpdated": "2026-11-21T07:18:58.965Z"
+            }
+          }
+        },
+        "battery": {
+          "states": {
+            "low": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:46:55.066Z"
+            },
+            "voltage": {
+              "value": 2.9,
+              "lastUpdated": "2026-11-21T04:33:51.840Z"
+            }
+          }
+        },
+        "diagnostic": {
+          "states": {
+            "networklinkstrength": {
+              "value": 100,
+              "lastUpdated": "2026-11-01T09:19:32.882Z"
+            },
+            "networklinkaddress": {
+              "value": "5842061D45606475",
+              "lastUpdated": "2026-06-30T18:17:33.045Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000006",
+      "name": "2 Etg DM",
+      "serialNumber": "0A2D1361CB81D601",
+      "location": "Floor 2 - 2 etg",
+      "online": true,
+      "modelId": "15e64f49-fdbc-4cd6-9912-e2a6e838d44f",
+      "modelName": "Intelligent Smoke Alarm",
+      "features": {
+        "alarm": {
+          "states": {
+            "fire": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:47:10.813Z"
+            }
+          }
+        },
+        "temperature": {
+          "states": {
+            "temperature": {
+              "value": 17.3,
+              "lastUpdated": "2026-11-21T07:50:04.663Z"
+            }
+          }
+        },
+        "battery": {
+          "states": {
+            "low": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:47:10.810Z"
+            },
+            "voltage": {
+              "value": 2.9,
+              "lastUpdated": "2026-11-11T13:48:16.573Z"
+            }
+          }
+        },
+        "diagnostic": {
+          "states": {
+            "networklinkstrength": {
+              "value": 83,
+              "lastUpdated": "2026-11-21T07:32:21.759Z"
+            },
+            "networklinkaddress": {
+              "value": "FE9D51823F05A601",
+              "lastUpdated": "2026-10-28T06:47:52.792Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000007",
+      "name": "Kjellerdør",
+      "serialNumber": "2BB55C2A8DF84A5F",
+      "location": "Floor 0 - Kjeller gang",
+      "online": true,
+      "modelId": "9b765375-e3f4-4627-b73c-b4143ce86c2c",
+      "modelName": "Alarm Entry Sensor 2",
+      "features": {
+        "alarm": {
+          "states": {
+            "alarm": {
+              "value": false,
+              "lastUpdated": "2026-11-20T17:30:37.448Z"
+            },
+            "tamper": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:47:47.704Z"
+            }
+          }
+        },
+        "temperature": {
+          "states": {
+            "temperature": {
+              "value": 14.6,
+              "lastUpdated": "2026-11-21T07:30:13.615Z"
+            }
+          }
+        },
+        "battery": {
+          "states": {
+            "low": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:47:47.701Z"
+            },
+            "voltage": {
+              "value": 2.9,
+              "lastUpdated": "2026-06-29T07:47:46.903Z"
+            }
+          }
+        },
+        "diagnostic": {
+          "states": {
+            "networklinkstrength": {
+              "value": 100,
+              "lastUpdated": "2026-11-20T16:17:33.224Z"
+            },
+            "networklinkaddress": {
+              "value": "FE9D51823F05A601",
+              "lastUpdated": "2026-06-29T07:47:47.354Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000008",
+      "name": "Terasse dør",
+      "serialNumber": "A7AC761F7EF65240",
+      "location": "Floor -1 - Stue",
+      "online": true,
+      "modelId": "9b765375-e3f4-4627-b73c-b4143ce86c2c",
+      "modelName": "Alarm Entry Sensor 2",
+      "features": {
+        "alarm": {
+          "states": {
+            "alarm": {
+              "value": false,
+              "lastUpdated": "2026-11-19T17:54:48.734Z"
+            },
+            "tamper": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:47:33.173Z"
+            }
+          }
+        },
+        "temperature": {
+          "states": {
+            "temperature": {
+              "value": 17.7,
+              "lastUpdated": "2026-11-21T07:39:48.753Z"
+            }
+          }
+        },
+        "battery": {
+          "states": {
+            "low": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:47:33.167Z"
+            },
+            "voltage": {
+              "value": 2.9,
+              "lastUpdated": "2026-10-27T17:03:43.499Z"
+            }
+          }
+        },
+        "diagnostic": {
+          "states": {
+            "networklinkstrength": {
+              "value": 22,
+              "lastUpdated": "2026-11-21T07:49:58.690Z"
+            },
+            "networklinkaddress": {
+              "value": "FE9D51823F05A601",
+              "lastUpdated": "2026-07-22T21:14:30.295Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000009",
+      "name": "Hoved dør",
+      "serialNumber": "84302B9BC8A8935B",
+      "location": "Floor 1 - Inngang oppe",
+      "online": true,
+      "modelId": "9b765375-e3f4-4627-b73c-b4143ce86c2c",
+      "modelName": "Alarm Entry Sensor 2",
+      "features": {
+        "alarm": {
+          "states": {
+            "alarm": {
+              "value": false,
+              "lastUpdated": "2026-11-20T17:23:46.592Z"
+            },
+            "tamper": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:48:49.313Z"
+            }
+          }
+        },
+        "temperature": {
+          "states": {
+            "temperature": {
+              "value": 10.8,
+              "lastUpdated": "2026-11-21T06:34:22.346Z"
+            }
+          }
+        },
+        "battery": {
+          "states": {
+            "low": {
+              "value": false,
+              "lastUpdated": "2026-06-29T07:48:49.308Z"
+            },
+            "voltage": {
+              "value": 2.9,
+              "lastUpdated": "2026-11-21T06:53:49.038Z"
+            }
+          }
+        },
+        "diagnostic": {
+          "states": {
+            "networklinkstrength": {
+              "value": 89,
+              "lastUpdated": "2026-11-21T07:38:32.398Z"
+            },
+            "networklinkaddress": {
+              "value": "5842061D45606475",
+              "lastUpdated": "2026-11-08T09:23:06.299Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000a",
+      "name": "Yale Doorman V2N",
+      "serialNumber": "B9F50B3FD624C1C2",
+      "location": "Floor 0 - Kjeller gang",
+      "online": true,
+      "modelId": "e9295a46-8880-4cd9-9bb2-395b0bf82bea",
+      "modelName": "Yale Doorman V2N",
+      "features": {
+        "lock": {
+          "states": {
+            "state": {
+              "value": true,
+              "lastUpdated": "2026-11-20T21:00:01.916Z"
+            },
+            "autorelocktime": {
+              "value": 0,
+              "lastUpdated": "2026-07-16T06:26:15.979Z"
+            },
+            "soundvolume": {
+              "value": 2,
+              "lastUpdated": "2026-06-29T07:45:27.747Z"
+            },
+            "language": {
+              "value": "en",
+              "lastUpdated": "2026-06-29T07:45:24.582Z"
+            }
+          }
+        },
+        "report": {
+          "states": {
+            "event": {
+              "value": "DOORLOCK_LOCKED_FROM_APP",
+              "lastUpdated": "2026-11-20T21:00:01.832Z"
+            },
+            "added": {},
+            "deleted": {},
+            "unknowncard": {},
+            "errorcode": {
+              "value": "Success",
+              "lastUpdated": "2026-09-23T12:54:25.645Z"
+            },
+            "locked": {
+              "value": true,
+              "lastUpdated": "2026-11-20T21:00:01.856Z"
+            },
+            "Broken": {
+              "value": false,
+              "lastUpdated": "2026-09-23T12:54:25.664Z"
+            },
+            "doorclosed": {
+              "value": true,
+              "lastUpdated": "2026-11-20T17:30:37.648Z"
+            },
+            "autolock": {
+              "value": false,
+              "lastUpdated": "2026-09-23T12:54:25.695Z"
+            },
+            "lowbat": {
+              "value": false,
+              "lastUpdated": "2026-09-23T12:54:25.707Z"
+            },
+            "securesensor": {
+              "value": false,
+              "lastUpdated": "2026-09-23T12:54:25.683Z"
+            },
+            "lockmodel": {
+              "value": "Doorman V2x",
+              "lastUpdated": "2026-06-29T07:45:16.637Z"
+            },
+            "partofalarm": {
+              "value": true,
+              "lastUpdated": "2026-09-23T07:45:21.082Z"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

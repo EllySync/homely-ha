@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Local settings and secrets
+.env
+.vscode/
+.idea/
+
+# Raw data from the Homely API contains real IDs; never commit it
+/data/
+*.raw.json

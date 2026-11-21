@@ -1,0 +1,530 @@
+[
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000c",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-000000000003",
+      "modelId": "17ddbcb4-8c00-4bc3-b06f-d20f51c0fe52",
+      "change": {
+        "feature": "alarm",
+        "stateName": "alarm",
+        "value": true,
+        "lastUpdated": "2026-11-21T07:50:37.436Z"
+      },
+      "changes": [
+        {
+          "feature": "alarm",
+          "stateName": "alarm",
+          "value": true,
+          "lastUpdated": "2026-11-21T07:50:37.436Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000e",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-000000000002",
+      "modelId": "17ddbcb4-8c00-4bc3-b06f-d20f51c0fe52",
+      "change": {
+        "feature": "alarm",
+        "stateName": "alarm",
+        "value": true,
+        "lastUpdated": "2026-11-21T07:50:51.073Z"
+      },
+      "changes": [
+        {
+          "feature": "alarm",
+          "stateName": "alarm",
+          "value": true,
+          "lastUpdated": "2026-11-21T07:50:51.073Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000e",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-00000000000a",
+      "modelId": "e9295a46-8880-4cd9-9bb2-395b0bf82bea",
+      "change": {
+        "feature": "report",
+        "stateName": "locked",
+        "value": false,
+        "lastUpdated": "2026-11-21T07:51:00.203Z"
+      },
+      "changes": [
+        {
+          "feature": "report",
+          "stateName": "locked",
+          "value": false,
+          "lastUpdated": "2026-11-21T07:51:00.203Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000e",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-00000000000a",
+      "modelId": "e9295a46-8880-4cd9-9bb2-395b0bf82bea",
+      "change": {
+        "feature": "report",
+        "stateName": "event",
+        "value": "DOORLOCK_MANUAL_UNLOCK",
+        "lastUpdated": "2026-11-21T07:51:00.183Z"
+      },
+      "changes": [
+        {
+          "feature": "report",
+          "stateName": "event",
+          "value": "DOORLOCK_MANUAL_UNLOCK",
+          "lastUpdated": "2026-11-21T07:51:00.183Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000e",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-00000000000a",
+      "modelId": "e9295a46-8880-4cd9-9bb2-395b0bf82bea",
+      "change": {
+        "feature": "lock",
+        "stateName": "state",
+        "value": false,
+        "lastUpdated": "2026-11-21T07:51:00.284Z"
+      },
+      "changes": [
+        {
+          "feature": "lock",
+          "stateName": "state",
+          "value": false,
+          "lastUpdated": "2026-11-21T07:51:00.284Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000f",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-000000000007",
+      "modelId": "9b765375-e3f4-4627-b73c-b4143ce86c2c",
+      "change": {
+        "feature": "alarm",
+        "stateName": "alarm",
+        "value": true,
+        "lastUpdated": "2026-11-21T07:51:01.637Z"
+      },
+      "changes": [
+        {
+          "feature": "alarm",
+          "stateName": "alarm",
+          "value": true,
+          "lastUpdated": "2026-11-21T07:51:01.637Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000e",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-00000000000a",
+      "modelId": "e9295a46-8880-4cd9-9bb2-395b0bf82bea",
+      "change": {
+        "feature": "report",
+        "stateName": "event",
+        "value": "DOORLOCK_OPEN",
+        "lastUpdated": "2026-11-21T07:51:01.880Z"
+      },
+      "changes": [
+        {
+          "feature": "report",
+          "stateName": "event",
+          "value": "DOORLOCK_OPEN",
+          "lastUpdated": "2026-11-21T07:51:01.880Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000e",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-00000000000a",
+      "modelId": "e9295a46-8880-4cd9-9bb2-395b0bf82bea",
+      "change": {
+        "feature": "report",
+        "stateName": "doorclosed",
+        "value": false,
+        "lastUpdated": "2026-11-21T07:51:01.912Z"
+      },
+      "changes": [
+        {
+          "feature": "report",
+          "stateName": "doorclosed",
+          "value": false,
+          "lastUpdated": "2026-11-21T07:51:01.912Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000f",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-000000000007",
+      "modelId": "9b765375-e3f4-4627-b73c-b4143ce86c2c",
+      "change": {
+        "feature": "diagnostic",
+        "stateName": "networklinkstrength",
+        "value": 98,
+        "lastUpdated": "2026-11-21T07:51:03.559Z"
+      },
+      "changes": [
+        {
+          "feature": "diagnostic",
+          "stateName": "networklinkstrength",
+          "value": 98,
+          "lastUpdated": "2026-11-21T07:51:03.559Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000e",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-00000000000a",
+      "modelId": "e9295a46-8880-4cd9-9bb2-395b0bf82bea",
+      "change": {
+        "feature": "report",
+        "stateName": "event",
+        "value": "DOORLOCK_CLOSED",
+        "lastUpdated": "2026-11-21T07:51:05.901Z"
+      },
+      "changes": [
+        {
+          "feature": "report",
+          "stateName": "event",
+          "value": "DOORLOCK_CLOSED",
+          "lastUpdated": "2026-11-21T07:51:05.901Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000e",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-00000000000a",
+      "modelId": "e9295a46-8880-4cd9-9bb2-395b0bf82bea",
+      "change": {
+        "feature": "report",
+        "stateName": "doorclosed",
+        "value": true,
+        "lastUpdated": "2026-11-21T07:51:05.951Z"
+      },
+      "changes": [
+        {
+          "feature": "report",
+          "stateName": "doorclosed",
+          "value": true,
+          "lastUpdated": "2026-11-21T07:51:05.951Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000f",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-000000000007",
+      "modelId": "9b765375-e3f4-4627-b73c-b4143ce86c2c",
+      "change": {
+        "feature": "alarm",
+        "stateName": "alarm",
+        "value": false,
+        "lastUpdated": "2026-11-21T07:51:05.989Z"
+      },
+      "changes": [
+        {
+          "feature": "alarm",
+          "stateName": "alarm",
+          "value": false,
+          "lastUpdated": "2026-11-21T07:51:05.989Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000c",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-000000000003",
+      "modelId": "17ddbcb4-8c00-4bc3-b06f-d20f51c0fe52",
+      "change": {
+        "feature": "alarm",
+        "stateName": "alarm",
+        "value": false,
+        "lastUpdated": "2026-11-21T07:51:06.710Z"
+      },
+      "changes": [
+        {
+          "feature": "alarm",
+          "stateName": "alarm",
+          "value": false,
+          "lastUpdated": "2026-11-21T07:51:06.710Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000e",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-00000000000a",
+      "modelId": "e9295a46-8880-4cd9-9bb2-395b0bf82bea",
+      "change": {
+        "feature": "report",
+        "stateName": "event",
+        "value": "DOORLOCK_MANUAL_LOCK",
+        "lastUpdated": "2026-11-21T07:51:07.662Z"
+      },
+      "changes": [
+        {
+          "feature": "report",
+          "stateName": "event",
+          "value": "DOORLOCK_MANUAL_LOCK",
+          "lastUpdated": "2026-11-21T07:51:07.662Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000e",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-00000000000a",
+      "modelId": "e9295a46-8880-4cd9-9bb2-395b0bf82bea",
+      "change": {
+        "feature": "report",
+        "stateName": "locked",
+        "value": true,
+        "lastUpdated": "2026-11-21T07:51:07.680Z"
+      },
+      "changes": [
+        {
+          "feature": "report",
+          "stateName": "locked",
+          "value": true,
+          "lastUpdated": "2026-11-21T07:51:07.680Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000e",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-00000000000a",
+      "modelId": "e9295a46-8880-4cd9-9bb2-395b0bf82bea",
+      "change": {
+        "feature": "lock",
+        "stateName": "state",
+        "value": true,
+        "lastUpdated": "2026-11-21T07:51:07.764Z"
+      },
+      "changes": [
+        {
+          "feature": "lock",
+          "stateName": "state",
+          "value": true,
+          "lastUpdated": "2026-11-21T07:51:07.764Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000f",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-000000000007",
+      "modelId": "9b765375-e3f4-4627-b73c-b4143ce86c2c",
+      "change": {
+        "feature": "diagnostic",
+        "stateName": "networklinkstrength",
+        "value": 100,
+        "lastUpdated": "2026-11-21T07:51:13.558Z"
+      },
+      "changes": [
+        {
+          "feature": "diagnostic",
+          "stateName": "networklinkstrength",
+          "value": 100,
+          "lastUpdated": "2026-11-21T07:51:13.558Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000c",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-000000000003",
+      "modelId": "17ddbcb4-8c00-4bc3-b06f-d20f51c0fe52",
+      "change": {
+        "feature": "alarm",
+        "stateName": "alarm",
+        "value": true,
+        "lastUpdated": "2026-11-21T07:51:23.890Z"
+      },
+      "changes": [
+        {
+          "feature": "alarm",
+          "stateName": "alarm",
+          "value": true,
+          "lastUpdated": "2026-11-21T07:51:23.890Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000e",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-000000000002",
+      "modelId": "17ddbcb4-8c00-4bc3-b06f-d20f51c0fe52",
+      "change": {
+        "feature": "alarm",
+        "stateName": "alarm",
+        "value": false,
+        "lastUpdated": "2026-11-21T07:51:36.379Z"
+      },
+      "changes": [
+        {
+          "feature": "alarm",
+          "stateName": "alarm",
+          "value": false,
+          "lastUpdated": "2026-11-21T07:51:36.379Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-00000000000c",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-000000000003",
+      "modelId": "17ddbcb4-8c00-4bc3-b06f-d20f51c0fe52",
+      "change": {
+        "feature": "alarm",
+        "stateName": "alarm",
+        "value": false,
+        "lastUpdated": "2026-11-21T07:52:14.484Z"
+      },
+      "changes": [
+        {
+          "feature": "alarm",
+          "stateName": "alarm",
+          "value": false,
+          "lastUpdated": "2026-11-21T07:52:14.484Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-000000000010",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-000000000008",
+      "modelId": "9b765375-e3f4-4627-b73c-b4143ce86c2c",
+      "change": {
+        "feature": "diagnostic",
+        "stateName": "networklinkstrength",
+        "value": 60,
+        "lastUpdated": "2026-11-21T07:52:48.688Z"
+      },
+      "changes": [
+        {
+          "feature": "diagnostic",
+          "stateName": "networklinkstrength",
+          "value": 60,
+          "lastUpdated": "2026-11-21T07:52:48.688Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "device-state-changed",
+    "data": {
+      "locationId": "00000000-0000-0000-0000-000000000011",
+      "rootLocationId": "00000000-0000-0000-0000-000000000001",
+      "gatewayId": "00000000-0000-0000-0000-00000000000d",
+      "deviceId": "00000000-0000-0000-0000-000000000006",
+      "modelId": "15e64f49-fdbc-4cd6-9912-e2a6e838d44f",
+      "change": {
+        "feature": "diagnostic",
+        "stateName": "networklinkstrength",
+        "value": 98,
+        "lastUpdated": "2026-11-21T07:53:03.787Z"
+      },
+      "changes": [
+        {
+          "feature": "diagnostic",
+          "stateName": "networklinkstrength",
+          "value": 98,
+          "lastUpdated": "2026-11-21T07:53:03.787Z"
+        }
+      ]
+    }
+  }
+]

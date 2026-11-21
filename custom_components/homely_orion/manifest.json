@@ -1,0 +1,12 @@
+{
+  "domain": "homely_orion",
+  "name": "Homely Orion",
+  "codeowners": ["@EllySync"],
+  "config_flow": true,
+  "documentation": "https://github.com/EllySync/homely-ha-orion",
+  "integration_type": "hub",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/EllySync/homely-ha-orion/issues",
+  "requirements": ["python-socketio>=5.10"],
+  "version": "0.1.0"
+}

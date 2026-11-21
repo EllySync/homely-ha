@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Koble til Homely",
+        "description": "Logg inn med e-posten og passordet du bruker i Homely-appen. Integrasjonen leser bare data; Homely sitt API tillater ikke å sette på eller ta av alarmen eller å låse.",
+        "data": {
+          "username": "E-post",
+          "password": "Passord"
+        }
+      },
+      "location": {
+        "title": "Velg hjem",
+        "data": {
+          "location_id": "Hjem"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Logg inn i Homely på nytt",
+        "description": "Homely avviste det lagrede passordet for {username}. Skriv inn gjeldende passord.",
+        "data": {
+          "password": "Passord"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Feil e-post eller passord.",
+      "cannot_connect": "Fikk ikke kontakt med Homely.",
+      "rate_limited": "Homely får for mange forespørsler. Prøv igjen om noen minutter.",
+      "unknown": "Uventet feil. Se loggen."
+    },
+    "abort": {
+      "already_configured": "Dette hjemmet er allerede satt opp.",
+      "no_locations": "Kontoen har ingen hjem.",
+      "reauth_successful": "Logget inn på nytt.",
+      "unique_id_mismatch": "Kontoen har ikke lenger tilgang til dette hjemmet."
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "battery_defect": { "name": "Batterifeil" }
+    },
+    "sensor": {
+      "signal_strength": { "name": "Signalstyrke" },
+      "last_event": { "name": "Siste hendelse" }
+    }
+  }
+}

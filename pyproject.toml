@@ -1,0 +1,30 @@
+# Only used for the tests. The integration is installed by copying
+# custom_components/homely_orion into Home Assistant (or via HACS), not as a package.
+#
+#   uv venv --python 3.14 --seed .venv   (same Python as Home Assistant 2026.11)
+#   .venv/bin/pip install --group test
+#   .venv/bin/pytest
+
+[project]
+name = "homely-ha-orion"
+version = "0.1.0"
+requires-python = ">=3.14"
+authors = [
+    { name = "Morten Egge" },
+    { name = "Claude Code (Claude Opus 5.5, Anthropic)" },
+]
+
+[dependency-groups]
+test = [
+    "pytest",
+    "pytest-asyncio",
+    "aiohttp==3.14.5",  # same as Home Assistant 2026.11.2
+    "python-socketio>=5.10",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+# api.py and mapping.py are imported directly, without __init__.py (which imports Home Assistant).
+pythonpath = ["custom_components/homely_orion"]

@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Homely",
+        "description": "Log in with the e-mail and password you use in the Homely app. The integration only reads data; Homely's API does not allow arming, disarming or locking.",
+        "data": {
+          "username": "E-mail",
+          "password": "Password"
+        }
+      },
+      "location": {
+        "title": "Choose home",
+        "data": {
+          "location_id": "Home"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Log in to Homely again",
+        "description": "Homely rejected the stored password for {username}. Enter the current password.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Wrong e-mail or password.",
+      "cannot_connect": "Could not reach Homely.",
+      "rate_limited": "Homely is receiving too many requests. Try again in a few minutes.",
+      "unknown": "Unexpected error. See the log."
+    },
+    "abort": {
+      "already_configured": "This home is already set up.",
+      "no_locations": "The account has no homes.",
+      "reauth_successful": "Logged in again.",
+      "unique_id_mismatch": "The account no longer has access to this home."
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "battery_defect": { "name": "Battery defect" }
+    },
+    "sensor": {
+      "signal_strength": { "name": "Signal strength" },
+      "last_event": { "name": "Last event" }
+    }
+  }
+}
