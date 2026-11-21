@@ -1,6 +1,6 @@
 # Homely Orion for Home Assistant
 
-[![Validate](https://github.com/EllySync/homely-ha-orion/actions/workflows/validate.yml/badge.svg)](https://github.com/EllySync/homely-ha-orion/actions/workflows/validate.yml)
+[![Validate](https://github.com/EllySync/homely-ha/actions/workflows/validate.yml/badge.svg)](https://github.com/EllySync/homely-ha/actions/workflows/validate.yml)
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/docs/faq/custom_repositories)
 
 A small, read-only Home Assistant integration for the [Homely](https://www.homely.no/) alarm system. It shows the alarm state and every device in your home — motion, doors, smoke, lock, battery, temperature and signal strength — using Homely's official API, with real-time updates over WebSocket.
@@ -27,7 +27,7 @@ A small, read-only Home Assistant integration for the [Homely](https://www.homel
 ### HACS (recommended)
 
 1. In HACS, open the menu (⋮) → **Custom repositories**.
-2. Add `https://github.com/EllySync/homely-ha-orion` with type **Integration**.
+2. Add `https://github.com/EllySync/homely-ha` with type **Integration**.
 3. Install **Homely Orion** and restart Home Assistant.
 
 ### Manual
